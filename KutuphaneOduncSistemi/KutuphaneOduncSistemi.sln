@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KutuphaneOduncSistemi.AppHost", "KutuphaneOduncSistemi.AppHost\KutuphaneOduncSistemi.AppHost.csproj", "{4CD94139-CB0E-4C2A-9390-D969144AC785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KutuphaneOduncSistemi.ServiceDefaults", "KutuphaneOduncSistemi.ServiceDefaults\KutuphaneOduncSistemi.ServiceDefaults.csproj", "{521AC448-0164-4FC4-6B2A-98FB50B145E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.ConsoleUI", "Kutuphane.ConsoleUI\Kutuphane.ConsoleUI.csproj", "{C3A9559A-F1B2-4117-B11B-C9C33388CC3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Entities", "Kutuphane.Entities\Kutuphane.Entities.csproj", "{96AD0E09-41F4-49AE-8460-0EF6C2D29AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.DataAccess", "Kutuphane.DataAccess\Kutuphane.DataAccess.csproj", "{0C4463BC-4330-4BE6-9E28-A9B96EB8D474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Business", "Kutuphane.Business\Kutuphane.Business.csproj", "{41D1E417-F014-4019-86DA-98145B6607DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD94139-CB0E-4C2A-9390-D969144AC785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD94139-CB0E-4C2A-9390-D969144AC785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD94139-CB0E-4C2A-9390-D969144AC785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD94139-CB0E-4C2A-9390-D969144AC785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521AC448-0164-4FC4-6B2A-98FB50B145E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521AC448-0164-4FC4-6B2A-98FB50B145E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521AC448-0164-4FC4-6B2A-98FB50B145E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521AC448-0164-4FC4-6B2A-98FB50B145E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A9559A-F1B2-4117-B11B-C9C33388CC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A9559A-F1B2-4117-B11B-C9C33388CC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A9559A-F1B2-4117-B11B-C9C33388CC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A9559A-F1B2-4117-B11B-C9C33388CC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AD0E09-41F4-49AE-8460-0EF6C2D29AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AD0E09-41F4-49AE-8460-0EF6C2D29AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AD0E09-41F4-49AE-8460-0EF6C2D29AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AD0E09-41F4-49AE-8460-0EF6C2D29AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4463BC-4330-4BE6-9E28-A9B96EB8D474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4463BC-4330-4BE6-9E28-A9B96EB8D474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4463BC-4330-4BE6-9E28-A9B96EB8D474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4463BC-4330-4BE6-9E28-A9B96EB8D474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D1E417-F014-4019-86DA-98145B6607DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D1E417-F014-4019-86DA-98145B6607DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D1E417-F014-4019-86DA-98145B6607DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D1E417-F014-4019-86DA-98145B6607DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C7A1EDC-E8CA-444F-8A19-800685BC638D}
+	EndGlobalSection
+EndGlobal
